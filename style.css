@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f8fb;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 5px solid #1c1c1c;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.frase {
+    font-style: italic;
+    font-size: 1.1rem;
+    opacity: 0.85;
+}
+
+.icon-bar {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1rem;
+    background-color: #e6eff3;
+    border-bottom: 1px solid #cfdde2;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+.accordion-button {
+    background-color: #305f72;
+    color: white;
+    cursor: pointer;
+    padding: 1rem 1.2rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.accordion-button:hover {
+    background-color: #417d8a;
+    transform: scale(1.01);
+}
+
+.accordion-content {
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid #305f72;
+    border-radius: 4px;
+}
+
+.accordion-content p, .accordion-content ul {
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.accordion-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.accordion-content ul li {
+    padding: 0.3rem 0;
+}
+
+.accordion-content ul li a {
+    color: #305f72;
+    text-decoration: none;
+}
+
+.accordion-content ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #305f72;
+    color: white;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
